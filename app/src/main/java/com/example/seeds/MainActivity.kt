@@ -164,9 +164,9 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
         val courseIV = layout.findViewById<ImageView>(R.id.idIVCourse)
         // on below line we are setting data to different views on below line.
         courseNameTV.text = modal!!.courseName
-        courseDescTV.text = modal.courseDescription
-        suitedForTV.text = "Suited for " + modal.bestSuitedFor
-        priceTV.text = "Rs." + modal.coursePrice
+        courseDescTV.text = "BMI value is : "+modal.courseLink
+        suitedForTV.text = "" + modal.bestSuitedFor
+        priceTV.text = "" + modal.coursePrice
         Picasso.get().load("https://cdn.dribbble.com/users/4051369/screenshots/12908915/media/550f17cad551a1a2d69a84d3117bf9a3.jpg").into(courseIV)
         val viewBtn = layout.findViewById<Button>(R.id.idBtnVIewDetails)
         val editBtn = layout.findViewById<Button>(R.id.idBtnEditCourse)
@@ -181,9 +181,18 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
         // adding click listener for our view button on below line.
         viewBtn.setOnClickListener { // on below line we are navigating to browser
             // for displaying course details from its url
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(modal.courseLink)
-            startActivity(i)
+//            val i = Intent(Intent.ACTION_VIEW)
+//            i.data = Uri.parse(modal.courseLink)
+//            startActivity(i)
+
+            val intent=Intent(this,ReadData::class.java)
+            intent.putExtra("registration_number",modal.courseId)
+            intent.putExtra("fullname",modal.coursePrice)
+            intent.putExtra("age",modal.bestSuitedFor)
+            intent.putExtra("bmi_value",modal.courseLink)
+            intent.putExtra("description",modal.courseDescription)
+
+            startActivity(intent)
         }
     }
 }

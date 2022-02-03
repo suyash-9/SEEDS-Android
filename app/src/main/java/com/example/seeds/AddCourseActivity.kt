@@ -68,7 +68,7 @@ class AddCourseActivity : AppCompatActivity() {
                     // on below line we are setting data in our firebase database.
                     databaseReference!!.child(courseID!!).setValue(courseRVModal)
                     // displaying a toast message.
-                    Toast.makeText(this@AddCourseActivity, "Course Added..", Toast.LENGTH_SHORT)
+                    Toast.makeText(this@AddCourseActivity, "Student Added..", Toast.LENGTH_SHORT)
                         .show()
                     // starting a main activity.
                     startActivity(Intent(this@AddCourseActivity, MainActivity::class.java))
@@ -78,7 +78,7 @@ class AddCourseActivity : AppCompatActivity() {
                     // displaying a failure message on below line.
                     Toast.makeText(
                         this@AddCourseActivity,
-                        "Fail to add Course..",
+                        "Fail to add Student..",
                         Toast.LENGTH_SHORT
                     ).show()
                 }

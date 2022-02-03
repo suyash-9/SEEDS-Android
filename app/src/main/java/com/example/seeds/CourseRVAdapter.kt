@@ -30,7 +30,7 @@ class CourseRVAdapter     // creating a constructor.
         // setting data to our recycler view item on below line.
         val courseRVModal = courseRVModalArrayList?.get(position)
         holder.courseTV.text = courseRVModal?.courseName
-        holder.coursePriceTV.text = "Rs. " + courseRVModal?.coursePrice
+        holder.coursePriceTV.text = "" + courseRVModal?.coursePrice
         Picasso.get().load("https://cdn.dribbble.com/users/4051369/screenshots/12908915/media/550f17cad551a1a2d69a84d3117bf9a3.jpg").into(holder.courseIV)
         // adding animation to recycler view item on below line.
         setAnimation(holder.itemView, position)

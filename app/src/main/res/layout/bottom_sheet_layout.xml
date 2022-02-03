@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:layout_weight="1"
-            android:text="Edit Course"
+            android:text="Edit Credentials"
             android:textAllCaps="false" />
 
         <!--button for viewing course details-->

@@ -10,10 +10,11 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_logout.xml" value="0.14375" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/progress_back.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/rounded_drawable.xml" value="0.14375" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_add_course.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_add_course.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_edit_course.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_login.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_main.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_read_data.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/course_rv_item.xml" value="0.12760416666666666" />

@@ -89,7 +89,7 @@ class EditCourseActivity : AppCompatActivity() {
                     // adding a map to our database.
                     databaseReference!!.updateChildren(map)
                     // on below line we are displaying a toast message.
-                    Toast.makeText(this@EditCourseActivity, "Course Updated..", Toast.LENGTH_SHORT)
+                    Toast.makeText(this@EditCourseActivity, "Credentials Updated..", Toast.LENGTH_SHORT)
                         .show()
                     // opening a new activity after updating our coarse.
                     startActivity(Intent(this@EditCourseActivity, MainActivity::class.java))
@@ -99,7 +99,7 @@ class EditCourseActivity : AppCompatActivity() {
                     // displaying a failure message on toast.
                     Toast.makeText(
                         this@EditCourseActivity,
-                        "Fail to update course..",
+                        "Fail to update credentials..",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
