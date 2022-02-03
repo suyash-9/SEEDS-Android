@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "971382685265",
+    "firebase_url": "https://seeds-f7211-default-rtdb.firebaseio.com",
+    "project_id": "seeds-f7211",
+    "storage_bucket": "seeds-f7211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971382685265:android:03daa1510a5a078a7c8270",
+        "android_client_info": {
+          "package_name": "com.example.seeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971382685265-k27ca8j7250us454ggmnl4kttoe70671.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEy7nW8Gu4PlmXCyMsq3gCiHXKClX2_us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971382685265-k27ca8j7250us454ggmnl4kttoe70671.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
