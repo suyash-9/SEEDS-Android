@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/button_back.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_add.xml" value="0.14375" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_delete.xml" value="0.14375" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_edit.xml" value="0.14375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/ic_logout.xml" value="0.14375" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/progress_back.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/drawable/rounded_drawable.xml" value="0.14375" />
@@ -19,6 +21,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/layout/course_rv_item.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/menu/menu_main.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/SEEDS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14739583333333334" />
       </map>
     </option>
   </component>

@@ -63,6 +63,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
+                android:textSize="14sp"
                 android:textColorHint="@color/white"
                 app:hintTextColor="@color/white">
 
@@ -76,6 +77,7 @@
                android:layout_marginTop="10dp"
                android:layout_marginRight="10dp"
                android:padding="5dp"
+               android:textSize="14sp"
                android:textColorHint="@color/white"
                app:hintTextColor="@color/white">
 
@@ -89,6 +91,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
+                android:textSize="14sp"
                 android:textColorHint="@color/white"
                 app:hintTextColor="@color/white">
 
@@ -102,6 +105,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
+                android:textSize="14sp"
                 android:textColorHint="@color/white"
                 app:hintTextColor="@color/white">
 
@@ -115,6 +119,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
+                android:textSize="14sp"
                 android:textColorHint="@color/white"
                 app:hintTextColor="@color/white">
 

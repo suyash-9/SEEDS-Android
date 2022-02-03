@@ -28,7 +28,7 @@
         android:layout_centerVertical="true"
         android:layout_margin="4dp"
         android:padding="4dp"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/ic_launcher_foreground" />
 
     <!--text view for displaying course description-->
     <TextView
