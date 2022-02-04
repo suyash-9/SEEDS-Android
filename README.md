@@ -1,1 +1,1 @@
-# SEEDS-Android
+# SEEDS-AndroidApp
