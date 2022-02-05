@@ -1,6 +1,8 @@
 package com.example.seeds
 
+import android.app.ActionBar
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -18,6 +20,10 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import java.util.ArrayList
+import android.graphics.drawable.ColorDrawable
+
+
+
 
 
 class MainActivity : AppCompatActivity(), CourseClickInterface {
@@ -36,6 +42,12 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
+
+
         // initializing all our variables.
         courseRV = findViewById(R.id.idRVCourses)
         homeRL = findViewById(R.id.idRLBSheet)
