@@ -116,7 +116,7 @@ class EditCourseActivity : AppCompatActivity() {
         // on below line calling a method to delete the course.
         databaseReference!!.removeValue()
         // displaying a toast message on below line.
-        Toast.makeText(this, "Course Deleted..", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Credentials Deleted..", Toast.LENGTH_SHORT).show()
         // opening a main activity on below line.
         startActivity(Intent(this@EditCourseActivity, MainActivity::class.java))
     }

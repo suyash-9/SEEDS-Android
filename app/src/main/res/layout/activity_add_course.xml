@@ -67,7 +67,8 @@
                     android:inputType="textImeMultiLine|textMultiLine"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
                     app:boxStrokeColor="@color/purple_200" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,7 +95,8 @@
                     android:inputType="textImeMultiLine|textMultiLine"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="14sp" />
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--edit text for course image link-->
@@ -120,7 +122,8 @@
                     android:inputType="textImeMultiLine|textMultiLine"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="14sp" />
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--edit text for course link-->
@@ -146,7 +149,8 @@
                     android:inputType="textImeMultiLine|textMultiLine"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="14sp" />
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -173,7 +177,8 @@
                     android:inputType="textImeMultiLine|textMultiLine"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="14sp" />
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--button for adding a new course-->
@@ -187,6 +192,8 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button_back"
                 android:text="Add Student"
+                android:textStyle="bold"
+                android:textColor="@color/white"
                 android:textAllCaps="false" />
 
 

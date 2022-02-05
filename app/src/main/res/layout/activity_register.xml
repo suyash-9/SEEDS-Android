@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background3"
+    android:background="@drawable/background_orange"
     tools:context=".RegisterActivity">
 
     <!--edit text for user name-->
@@ -30,8 +30,9 @@
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textColorHint="@color/white"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--edit text for user password-->
@@ -44,7 +45,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Enter Your Password"
+        android:hint="Enter Your Password(Minimum length is 6)"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -57,8 +58,9 @@
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textColorHint="@color/white"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--edit text for confirmation of user password-->
@@ -85,8 +87,9 @@
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textColorHint="@color/white"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--button for creating user account.-->
@@ -100,6 +103,8 @@
         android:layout_marginEnd="25dp"
         android:background="@drawable/button_back"
         android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textAllCaps="false" />
 
     <!--text view for displaying a text on

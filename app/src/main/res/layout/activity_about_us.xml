@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".AboutUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            &lt;!&ndash;edit text for course name&ndash;&gt;-->
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:id="@+id/idTILCourseName"-->
+            <!--                style="@style/LoginTextInputLayoutStyle"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:hint="Enter Course Name"-->
+            <!--                android:padding="5dp"-->
+            <!--                android:textColorHint="@color/white"-->
+            <!--                app:hintTextColor="@color/white">-->
+
+            <!--                <com.google.android.material.textfield.TextInputEditText-->
+            <!--                    android:id="@+id/reg"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:ems="10"-->
+            <!--                    android:importantForAutofill="no"-->
+            <!--                    android:inputType="textImeMultiLine|textMultiLine"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textColorHint="@color/white"-->
+            <!--                    android:textSize="14sp" />-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/showbtn"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="10dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginEnd="10dp"-->
+            <!--                android:layout_marginBottom="10dp"-->
+            <!--                android:background="@drawable/button_back"-->
+            <!--                android:text="Show Details"-->
+            <!--                android:textAllCaps="false" />-->
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@color/black_shade_1"
+                ></ImageView>
+
+            <com.riningan.widget.GlowTextView
+                android:id="@+id/glowTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="40dp"
+                android:text="SEEDS"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:glowColor="@color/black_shade_1"
+                android:layout_gravity="center"
+                app:glowRadius="20dp" />
+
+            <com.riningan.widget.GlowTextView
+                android:id="@+id/glowTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="20dp"
+                android:text="About Us "
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                app:glowColor="@color/black_shade_1"
+
+                app:glowRadius="20dp" />
+
+
+            <com.riningan.widget.GlowTextView
+                android:id="@+id/glowTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Student Educational Empowerment and overall Development monitoring System (SEEDS) "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:glowColor="@color/black_shade_1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+
+                app:glowRadius="20dp" />
+
+            <com.riningan.widget.GlowTextView
+                android:id="@+id/glowTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="4dp"
+                android:text="The Purpose of SEEDS is to provide unified, full-fledged computer software and a database management system (DBMS), allowing the authorized users to register all essential details of a student/child, including their literacy details, their Health Indicators, and other development factors. "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:glowColor="@color/black_shade_1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+
+                app:glowRadius="20dp" />
+
+
+
+
+
+            <!--button for adding a new course-->
+            <Button
+                android:id="@+id/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_back"
+                android:text="Back"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="false" />
+
+            <com.riningan.widget.GlowTextView
+                android:id="@+id/glowTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="4dp"
+                android:text="Developed By : © Suyash Sinha "
+                android:textColor="@color/white"
+                android:textSize="8dp"
+                app:glowColor="@color/black_shade_1"
+
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="bottom|right"
+
+                app:glowRadius="20dp" />
+
+
+        </LinearLayout>
+
+        <!--progress bar for loading indicator-->
+        <ProgressBar
+            android:id="@+id/idPBLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_back"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</ScrollView>

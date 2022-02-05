@@ -85,6 +85,7 @@
             android:layout_margin="6dp"
             android:layout_weight="1"
             android:text="Edit Credentials"
+            android:textColor="@color/white"
             android:textAllCaps="false" />
 
         <!--button for viewing course details-->
@@ -95,6 +96,7 @@
             android:layout_margin="6dp"
             android:layout_weight="1"
             android:text="View Details"
+            android:textColor="@color/white"
             android:textAllCaps="false" />
 
     </LinearLayout>

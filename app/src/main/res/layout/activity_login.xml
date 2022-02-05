@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background3"
+    android:background="@drawable/background_orange"
     tools:context=".LoginActivity">
 
     <!--edit text for user name-->
@@ -30,8 +30,9 @@
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textColorHint="@color/white"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--edit text for password-->
@@ -57,8 +58,9 @@
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textColorHint="@color/white"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--button for login-->
@@ -72,6 +74,8 @@
         android:layout_marginEnd="25dp"
         android:background="@drawable/button_back"
         android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         />
 

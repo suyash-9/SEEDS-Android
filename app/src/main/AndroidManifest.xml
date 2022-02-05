@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SEEDS">
         <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
             android:name=".ReadData"
             android:exported="false" />
         <activity

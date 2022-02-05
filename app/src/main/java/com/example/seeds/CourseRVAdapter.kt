@@ -29,9 +29,12 @@ class CourseRVAdapter     // creating a constructor.
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         // setting data to our recycler view item on below line.
         val courseRVModal = courseRVModalArrayList?.get(position)
-        holder.courseTV.text = courseRVModal?.courseName
-        holder.coursePriceTV.text = "" + courseRVModal?.coursePrice
-        Picasso.get().load("https://cdn.dribbble.com/users/4051369/screenshots/12908915/media/550f17cad551a1a2d69a84d3117bf9a3.jpg").into(holder.courseIV)
+        holder.courseTV.text = "Reg. No. "+courseRVModal?.courseName
+        holder.coursePriceTV.text = "Name : " + courseRVModal?.coursePrice
+        if(courseRVModal?.courseImg!!.isEmpty()){
+            courseRVModal.courseImg="https://www.kindpng.com/picc/m/33-338711_circle-user-icon-blue-hd-png-download.png"
+        }
+        Picasso.get().load(courseRVModal.courseImg).into(holder.courseIV)
         // adding animation to recycler view item on below line.
         setAnimation(holder.itemView, position)
         holder.courseIV.setOnClickListener { courseClickInterface.onCourseClick(position) }

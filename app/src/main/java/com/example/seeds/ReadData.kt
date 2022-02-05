@@ -5,13 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import com.google.firebase.database.DatabaseReference
 import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.database.FirebaseDatabase
+import com.riningan.widget.GlowTextView
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_read_data.*
 import java.util.ArrayList
+
 
 
 class ReadData : AppCompatActivity() {
@@ -37,29 +41,35 @@ class ReadData : AppCompatActivity() {
         //regEdt=findViewById(R.id.reg)
         //val registeration = regEdt!!.getText().toString()
 
-        var reg_number:TextView?=null
-        var fullname:TextView?=null
-        var ageT:TextView?=null
-        var bmiT:TextView?=null
-        var detailsT:TextView?=null
+        var reg_number:GlowTextView?=null
+        var fullname:GlowTextView?=null
+        var ageT:GlowTextView?=null
+        var bmiT:GlowTextView?=null
+        var detailsT:GlowTextView?=null
+        var imageView:ImageView?=null
 
         reg_number=findViewById(R.id.registationTV)
         fullname=findViewById(R.id.username)
         ageT=findViewById(R.id.age)
         bmiT=findViewById(R.id.bmi)
         detailsT=findViewById(R.id.details)
+        imageView=findViewById(R.id.idIV)
 
         val reg_no=intent.getStringExtra("registration_number")
         val full_name=intent.getStringExtra("fullname")
         val age_value=intent.getStringExtra("age")
         val bmi_value=intent.getStringExtra("bmi_value")
         val description=intent.getStringExtra("description")
+        val img=intent.getStringExtra("imglink")
 
-        reg_number.text=reg_no.toString()
-        fullname.text = full_name.toString()
-        ageT.text = age_value.toString()
-        bmiT.text = bmi_value.toString()
-        detailsT.text=description.toString()
+        Picasso.get().load(img).into(imageView)
+
+        reg_number.text="RegistrationNumber : "+reg_no.toString()
+        fullname.text = "Full Name : "+full_name.toString()
+        ageT.text = "Age : "+age_value.toString()
+        bmiT.text = "BMI Value : "+bmi_value.toString()
+        detailsT.text="Description : \n \n"+description.toString()
+
 
         backbtn.setOnClickListener{
             startActivity(Intent(this,MainActivity::class.java))

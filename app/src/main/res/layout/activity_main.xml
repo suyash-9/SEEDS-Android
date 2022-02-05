@@ -6,7 +6,7 @@
     android:id="@+id/idRLHome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black_shade_1"
+    android:background="@color/orange_shade_2"
     tools:context=".MainActivity">
 
     <!--recycler view for our data-->
@@ -36,7 +36,7 @@
         android:layout_margin="20dp"
         android:src="@drawable/ic_add"
         app:background="@color/black_shade_1"
-        app:backgroundTint="@color/black_shade_2"
+        app:backgroundTint="@color/black_shade_1"
         app:tint="@color/white" />
 
 </RelativeLayout>

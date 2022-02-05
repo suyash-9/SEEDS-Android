@@ -131,8 +131,18 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
                 finish()
                 true
             }
+            R.id.idAbout -> {
+
+                Toast.makeText(applicationContext, "ABout SEEDS", Toast.LENGTH_LONG).show()
+
+                val i = Intent(this@MainActivity, AboutUs::class.java)
+                startActivity(i)
+                finish()
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -167,7 +177,10 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
         courseDescTV.text = "BMI value is : "+modal.courseLink
         suitedForTV.text = "" + modal.bestSuitedFor
         priceTV.text = "" + modal.coursePrice
-        Picasso.get().load("https://cdn.dribbble.com/users/4051369/screenshots/12908915/media/550f17cad551a1a2d69a84d3117bf9a3.jpg").into(courseIV)
+        if(modal.courseImg!!.isEmpty()){
+            modal.courseImg="https://www.kindpng.com/picc/m/33-338711_circle-user-icon-blue-hd-png-download.png"
+        }
+        Picasso.get().load(modal.courseImg).into(courseIV)
         val viewBtn = layout.findViewById<Button>(R.id.idBtnVIewDetails)
         val editBtn = layout.findViewById<Button>(R.id.idBtnEditCourse)
 
@@ -191,6 +204,7 @@ class MainActivity : AppCompatActivity(), CourseClickInterface {
             intent.putExtra("age",modal.bestSuitedFor)
             intent.putExtra("bmi_value",modal.courseLink)
             intent.putExtra("description",modal.courseDescription)
+            intent.putExtra("imglink",modal.courseImg)
 
             startActivity(intent)
         }
