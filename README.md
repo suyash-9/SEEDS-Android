@@ -2,7 +2,7 @@
 
 #  <p align =center>SEEDSApp</p>
 <p align="center">
-  <img width="200" src="https://github.com/suyash-9/BinocularsApp/blob/main/icon.png" alt="Material Bread logo">
+  <img width="200" src="https://github.com/suyash-9/SEEDS-Android/blob/master/resources/icon.png" alt="Material Bread logo">
 </p>
 
 ![logo](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
