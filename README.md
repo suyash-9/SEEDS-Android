@@ -7,6 +7,8 @@
 
 ![logo](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![logo](	https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+
 
 ## About
    'SEEDS' is an android application with the purpose to provide unified, full-fledged computer software and a database management system (DBMS), allowing the authorized users to register all essential details of a student/child, including their literacy details, their Health Indicators, and other development factors.
