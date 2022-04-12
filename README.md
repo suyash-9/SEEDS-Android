@@ -27,11 +27,6 @@
      
 ## Preview
 <p align="center">
-  <img width="200" src="https://github.com/suyash-9/BinocularsApp/blob/main/preview1.gif" alt="Material Bread logo">
-  <img width="200" src="https://github.com/suyash-9/BinocularsApp/blob/main/preview2.gif" alt="Material Bread logo">
-</p>
-<br>
-<p align="center">
   <img width="200" src="https://github.com/suyash-9/SEEDS-Android/blob/master/resources/2.jpg" alt="Material Bread logo">
   <img width="200" src="https://github.com/suyash-9/SEEDS-Android/blob/master/resources/10.jpg" alt="Material Bread logo">
   <img width="200" src="https://github.com/suyash-9/SEEDS-Android/blob/master/resources/7.jpg" alt="Material Bread logo">
